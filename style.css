@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  position: fixed;
+  height: 50px;
+  top: 0;
+  width: 100%;
+  background-color: #fff;
+}
+
+.flex-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-right .menu {
+  width: 40px;
+  padding: 8px;
+}
+
+.nav-right .logo {
+  width: 120px;
+  padding: 15px;
+}
+
+.nav-left .create {
+  width: 40px;
+  padding: 8px;
+}
+
+.nav-left .note {
+  width: 40px;
+  padding: 8px;
+}
+
+.nav-left .user-icon img {
+  width: 50px;
+  padding: 8px;
+  border-radius: 50%;
+}
+
+.search-box input {
+  border-radius: 20px 0 0 20px;
+  font-size: 15px;
+  padding: 5px;
+  border: 1px solid #dbdbdb;
+  outline: none;
+  width: 400px;
+}
+
+.search-box button {
+  border-radius: 0 20px 20px 0;
+  padding: 5px 10px;
+  border: 1px solid #dbdbdb;
+  width: 50px;
+  height: 30px;
+}
+
+.mic {
+  width: 40px;
+  padding: 8px;
+}
+
+/* -----------------------------------aside--------------------------------------- */
+
+.aside {
+  position: fixed;
+  top: 50px;
+  left: 0;
+  width: 15%;
+  height: 100vh;
+  overflow: scroll;
+}
+
+.aside a {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  height: 30px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.aside hr {
+  margin-bottom: 20px;
+  border: none;
+  border-bottom: 1px solid #dbdbdb;
+}
+
+.aside a p {
+  white-space: nowrap;
+  font-size: 15px;
+}
+
+.aside a svg,
+.aside a img {
+  margin-right: 20px;
+}
+
+.aside a img {
+  width: 30px;
+  border-radius: 50%;
+}
+
+.aside .about {
+  width: 100%;
+  margin-top: 20px;
+  width: fit-content;
+}
+
+.aside .about p {
+  width: 100%;
+  white-space: normal;
+  word-wrap: break-word;
+  word-break: keep-all;
+  font-size: 10px;
+}
+
+.aside .google {
+  padding-bottom: 20px;
+}
+
+.aside .google p {
+  font-size: 10px;
+}
+
+/* ----------------------main--------------------- */
+.container {
+  padding-left: 300px;
+}
+
+.video-all {
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+  grid-row-gap: 30px;
+  grid-column-gap: 20px;
+}
+
+.video-container img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.vid-buttom {
+  align-items: start;
+  margin-top: 10px;
+}
+
+.vid-buttom img {
+  width: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.vid-title {
+  margin-bottom: 10px;
+}
+
+.vid-channelName {
+  font-size: 15px;
+  color: #5d5c5c;
+}
+
+.vid-time {
+  font-size: 15px;
+  color: #5d5c5c;
+}
